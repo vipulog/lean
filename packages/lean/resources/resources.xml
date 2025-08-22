@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/dev/vipulog/lean">
+    <file>icons/brain-symbolic.svg</file>
+    <file>result_page/index.html</file>
+    <file>result_page/script.js</file>
+    <file>result_page/styles.css</file>
+  </gresource>
+</gresources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="dev.vipulog.lean" path="/dev/vipulog/lean/">
+    <key name="short-question-prompt" type="s">
+      <summary>Prompt for short questions</summary>
+      <description>The system prompt used for answering short questions.</description>
+      <default>
+        "There should be a question in the provided image.
+        You must answer the question in as few words as possible.
+        Do not include explanations or additional details.
+        If no question is found, please inform the user."
+      </default>
+    </key>
+    <key name="long-question-prompt" type="s">
+      <summary>Prompt for long questions</summary>
+      <description>The system prompt used for answering long questions.</description>
+      <default>
+        "There should be a question in the provided image.
+        You must answer the question thoroughly.
+        Include relevant explanations and details to fully address the question,
+        but avoid unnecessary verbosity.
+        If no question is found, please inform the user."
+      </default>
+    </key>
+  </schema>
+</schemalist>
