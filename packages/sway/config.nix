@@ -33,5 +33,7 @@ pkgs.writeText "config" ''
   for_window [app_id=".*"] floating enable
   for_window [app_id="chromium"] floating disable
 
+  seat seat0 hide_cursor 1000
+
   exec echo "$WAYLAND_DISPLAY" > "''${SWAY_DISPLAY_READY_FILE:-/tmp/sway-display-ready}"
 ''
