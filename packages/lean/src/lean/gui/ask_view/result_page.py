@@ -107,6 +107,8 @@ class ResultPage(Gtk.Box):
         GLib.idle_add(webview.load_uri, base_uri)
 
         settings = webview.get_settings()
+        settings.set_default_font_size(13)
+        settings.set_default_monospace_font_size(12)
         settings.set_enable_developer_extras(True)
         settings.set_enable_developer_extras(True)
         settings.set_enable_back_forward_navigation_gestures(False)
